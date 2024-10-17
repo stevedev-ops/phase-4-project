@@ -6,12 +6,12 @@ const drugCategories = {
     {
       title: "Analgesics",
       description: "Pain relievers (e.g., ibuprofen, acetaminophen).",
-      imgSrc: "path/to/analgesics.jpg",
+      imgSrc: "https://media.istockphoto.com/id/932555698/photo/hydrocodone-is-an-analgesic-prescribed-as-potent-pain-medication.jpg?s=612x612&w=0&k=20&c=xPeCb1mihCJ5blO8PkRfa4hoN6K9hv1-CXOtSUZvmBA=",
     },
     {
       title: "Antibiotics",
       description: "Fight bacterial infections (e.g., penicillin, amoxicillin).",
-      imgSrc: "path/to/antibiotics.jpg",
+      imgSrc: "https://media.istockphoto.com/id/1029339748/photo/man-hand-taking-medicine.jpg?s=612x612&w=0&k=20&c=q10HXBNZ9lB49KJsJd8MBI9DU5gR1AQEw_V0H3-miik=",
     },
    
   ],
@@ -19,7 +19,7 @@ const drugCategories = {
     {
       title: "Tablets/Capsules",
       description: "Solid forms taken orally.",
-      imgSrc: "path/to/tablets_capsules.jpg",
+      imgSrc: "https://m.media-amazon.com/images/I/41u1X5zReeL.jpg",
     },
     
   ],
@@ -86,7 +86,7 @@ const Home = () => {
 
   return (
     <div style={containerStyle}>
-      <h1 style={{ color: '#333', fontFamily: 'Arial, sans-serif', marginBottom: '20px' }}>Welcome to Medical Reminder App</h1>
+      <h1 style={{ color: '#333', fontFamily: 'Arial, sans-serif', marginBottom: '20px' }}>Welcome to MEDTRACK</h1>
       <p style={{ color: '#666', fontSize: '18px', marginBottom: '30px' }}>Track and manage your medical prescriptions and appointments easily.</p>
       <div>
         <Link to="/add-reminder" style={buttonStyle}>Add a New Reminder</Link>
